@@ -22,7 +22,7 @@
             width: 400px;
         }
         .video-container {
-            text-align: center; /* Centra el video */
+            text-align: center;
             margin: 20px;
         }
         .credits {
@@ -30,6 +30,20 @@
             font-size: 14px;
             color: gray;
             margin-top: 10px;
+        }
+        .list-container {
+            text-align: center; /* Centra la lista */
+            margin-top: 30px;
+        }
+        ol {
+            list-style-type: decimal; /* Tipo de numeración (1, 2, 3, ...) */
+            padding-left: 0;
+        }
+        ol li {
+            margin: 10px 0;
+        }
+        .section {
+            margin-top: 40px;
         }
     </style>
 </head>
@@ -52,5 +66,38 @@
     <div class="credits">
         <p>Créditos al autor: Este video fue subido por <strong>Canal del Autor</strong> en YouTube. No me pertenece.</p>
     </div>
+
+    <!-- Lista de Idiomas -->
+    <div class="list-container">
+        <h2>Idiomas Disponibles:</h2>
+        <ol>
+            <li><a href="#ingles">Inglés</a></li>
+            <li><a href="#frances">Francés</a></li>
+            <li><a href="#chino">Chino</a></li>
+            <li><a href="#aleman">Alemán</a></li>
+        </ol>
+    </div>
+
+    <!-- Secciones de Idiomas -->
+    <div class="section" id="ingles">
+        <h2>Inglés</h2>
+        <p>El inglés es uno de los idiomas más hablados en el mundo. Es ampliamente utilizado en negocios, ciencia y tecnología.</p>
+    </div>
+
+    <div class="section" id="frances">
+        <h2>Francés</h2>
+        <p>El francés es hablado principalmente en Francia, Canadá y varios países africanos. Es conocido por su influencia cultural y su belleza lingüística.</p>
+    </div>
+
+    <div class="section" id="chino">
+        <h2>Chino</h2>
+        <p>El chino, especialmente el mandarín, es hablado por más de mil millones de personas, principalmente en China y Taiwán.</p>
+    </div>
+
+    <div class="section" id="aleman">
+        <h2>Alemán</h2>
+        <p>El alemán es hablado en Alemania, Austria y Suiza. Es un idioma clave en la ciencia, la filosofía y la música clásica.</p>
+    </div>
+
 </body>
 </html>
